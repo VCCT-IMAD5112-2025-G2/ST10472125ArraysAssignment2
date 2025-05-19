@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bckgrndView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#410B13"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtWelcome"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/aclonica"
+        android:text="Welcome, Player!"
+        android:textColor="#FFD700"
+        android:textSize="35sp" />
+
+    <TextView
+        android:text="~Test your knowledge on world history by answering various flashcard questions.~"
+        android:layout_width="260dp"
+        android:layout_height="150dp"
+        android:id="@+id/txtDescription"
+        android:textColor="#F8F3F3"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:id="@+id/txtPurpose"
+        android:layout_width="380dp"
+        android:layout_height="260dp"
+        android:layout_gravity="center"
+        android:text="Increase your knowledge on world history via active recall, which is a reliable study method."
+        android:textColor="#F8F3F3"
+        android:layout_marginBottom="20dp"
+        android:textSize="29dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnClick"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:background="#FFD700"
+        android:text="NEXT"
+        android:textColor="#410B13"
+        android:textSize="25dp"
+        />
+
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
