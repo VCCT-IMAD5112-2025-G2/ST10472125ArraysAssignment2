@@ -11,10 +11,11 @@ class ResultsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_results)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.quizView)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
-        }
+
+        val score = intent.getIntExtra("score", 0)
+        val userAnswers = intent.getBooleanArrayExtra("userAnswers")
+        val questions = intent.getStringArrayExtra("questions")
+        val correctAnswers = intent.getBooleanArrayExtra("correctAnswers")
+
     }
-}
+    }

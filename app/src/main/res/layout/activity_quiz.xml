@@ -45,11 +45,19 @@
         android:layout_width="200dp"
         android:layout_height="100dp"
         android:layout_gravity="center"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="80dp"
         android:background="#652A0E"
         android:text="next"
         android:textColor="#FFD700"
         android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/txtTip"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:text="Tip: Click true or false then click next"
+        android:textColor="#FFD700" />
 
 
 
