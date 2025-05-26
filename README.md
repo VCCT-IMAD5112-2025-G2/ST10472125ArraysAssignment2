@@ -4,7 +4,7 @@
 ST10472125ArraysAssignment2 is a flashcard-style quiz app designed specifically for history students. It helps learners study key historical facts using a true/false question format, enhancing recall and reinforcing understanding through immediate feedback and answer review.
 
 
-This app is built for History students at the primary or high school level who want an easy and interactive way to revise historical topics using quick quizzes.
+This app is built for History students at the primary or early high school level who want an easy and interactive way to revise historical topics using quick quizzes.
 
 
 The app serves as a study aid. It uses a flashcard-based quiz system to:
@@ -12,7 +12,7 @@ The app serves as a study aid. It uses a flashcard-based quiz system to:
 - Provide instant feedback for better learning
 - Offer an answer review screen for self-assessment
 
- Why GitHub and GitHub Actions?
+ Why use GitHub and GitHub Actions?
 
 # GitHub
 Using GitHub allows me to:
