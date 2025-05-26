@@ -14,13 +14,13 @@ The app serves as a study aid. It uses a flashcard-based quiz system to:
 
  Why GitHub and GitHub Actions?
 
-### GitHub
+# GitHub
 Using GitHub allows me to:
 - Keep my project version-controlled
 - Collaborate and share my code easily
 - Back up and restore my work when needed
 
-### GitHub Actions
+# GitHub Actions
 I use GitHub Actions to:
 - Ensure my code builds successfully on other machines
 - Catch errors early through automated testing workflows
@@ -39,6 +39,15 @@ I chose adark red and yellow theme because:
 -  "Try Again" button to retake the quiz
 -  Review screen showing your answers and correct answers
 -  Score summary for instant feedback
+
+#Installation and use
+-The app can be ran locally through an emulator known as Bluestacks 5
+- It must first be connected through a local host known as "run for bluestacks"
+
+*Links and images
+- GitHub:https://github.com/Dzeng1/ST10472125ArraysAssignment2
+- Sreenshot of app running:![0](https://github.com/user-attachments/assets/45af98aa-7187-4295-b6e7-892d817ee970)
+
 
 
 > Created as part of a coursework assignment for mobile development.
